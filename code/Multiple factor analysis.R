@@ -45,7 +45,7 @@ fviz_contrib(res.mfa, "group", axes = 1)
 # Contribution to the second dimension
 fviz_contrib(res.mfa, "group", axes = 2)
 
-# extract results of qualtitative variables
+# extract results of quantitative variables
 quanti.var <- get_mfa_var(res.mfa, "quanti.var")
 quanti.var
 # Coordinates
