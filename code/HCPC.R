@@ -60,6 +60,13 @@ colnames(tea[19])
 res.hcpc <- HCPC (res.mca, graph = FALSE, max = 3)
 fviz_dend(res.hcpc, show_labels = FALSE)
 
+#Description by variables
+res.hcpc$desc.var$test.chi2
+# Description by variable categories
+res.hcpc$desc.var$category
 
 
-
+# Description by principal components
+res.hcpc$desc.axes
+# Description by Individuals
+res.hcpc$desc.ind$para
